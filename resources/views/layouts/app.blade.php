@@ -4,11 +4,11 @@
 <head>
 
     <!-- sharing/webmasters -->
-    <meta property="og:url"           content="https://marmolesatenea.test" />
+    <meta property="og:url"           content="https://marmolesatenea.com.co" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Marmoles Atenea" />
-    <meta property="og:description"   content="variado portafolio de piedras naturales y artificiales." />
-    <meta property="og:image"         content="https://marmolesatenea.test/uploads/slide-02.jpg" />
+    <meta property="og:description"   content="Conozca nuestras soluciones y servicos en marmol para construir, remodelar interiores y exteriores de tu hogar, local u oficina." />
+    <meta property="og:image"         content="https://marmolesatenea.com.co/uploads/slider-01.jpg" />
 
 
 
@@ -24,9 +24,10 @@
  
      <!-- Site Metas -->
     <title>{{ config('app.name', 'Laravel') }}</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="soluciones y servicos en marmol, construir, remodelar interiores y exteriores en marmol, hogar, local, oficina">
+    <meta name="description" content="Conozca nuestras soluciones y servicos en marmol para construir, remodelar interiores y exteriores de tu hogar, local u oficina" />
+    <meta name="author" content="softcode">
+    <meta name="robots" content="index,follow" >
 
     <!--iconos desde internet font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -105,6 +106,16 @@
         </div>
       </div>
     </nav>
+
+    <div class="social">
+      <ul>
+        <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="#"><i class="face fab fa-facebook"></i></a>  </li>
+        <li><a class="btn-insta" title="siguenos en instagram" target="_blank"  href="https://instagram.com/marmolesatenea" role="button"><i class="insta fab fa-instagram"></i></a>  </li>
+        <li><a class="btn-twitt" title="siguenos en twitter"   target="_blank"  href="#" role="button"><i class="twitt fab fa-twitter"></i></a>  </li>
+      </ul>  
+    </div>
+
+
 	<main class="py-4">
 		@yield('content')
 	</main>	

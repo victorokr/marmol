@@ -64,7 +64,7 @@
                 <div class="col-md-6">
                     <div class="message-box">                        
                         <h2>Bienvenidos.</h2>
-                        <p> Queremos dar a conocer nuestra empresa hasta ser la primera opción cuando los clientes piensen en remodelar o construir, y así brindarles los mejores productos para todo tipo de uso.  </p>
+                        <p> Queremos dar a conocer nuestra empresa con mas de 10 años de experiencia, la primera opción cuando los clientes piensen en remodelar o construir, y así brindarles los mejores productos para todo tipo de uso.  </p>
                         <p> No solo por manejar los mejores precios del mercado si no también por ofrecer al cliente un acompañamiento indeterminado para que sus mármoles siempre permanezcan impecables.</p>
                         
                         <ul>
@@ -124,7 +124,7 @@
     <div id="services" class="section lb">
         <div class="container-fluid">
             <div class="section-title text-center">
-                <h3>Servicios</h3>
+                <h3>Nuestros Servicios</h3>
                 <p>Conozca nuestras soluciones y servicos en marmol para construir, remodelar interiores y exteriores de tu hogar, local u oficina </p>
             </div><!-- end title -->
 
@@ -248,10 +248,10 @@
                 
                 <div class="col-md-4 col-sm-6 gallery-grid gal_a">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolKraken.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/gramarston.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Kraken</h3>
-                            <a href="uploads/MarmolKraken.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Gramarston</h3>
+                            <a href="uploads/gramarston.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
@@ -582,34 +582,26 @@
                         </form>
                     </div>
                     <div class="section-title text-center mt-2">
-                      <p><i class="fab fa-whatsapp"></i> 3133808771</p>
+                      <p>comunicate al <i class="fab fa-whatsapp"></i> 3133808771</p>
 
                        <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); js.id = id;
-js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+                        <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your share button code -->
-<div class="fb-share-button mt-5" 
-data-href="https://marmolesatenea.test" 
-data-layout="button_count">
-</div> 
+                            <!-- Your share button code -->
+                            <div class="fb-share-button mt-5" 
+                            data-href="https://marmolesatenea.com.co" 
+                            data-layout="button_count">
+                        </div> 
 
-<!-- boton siguenos en instagram -->
-<div class=" mt-2" title="Siguenos en Instagram">
-    <a href="https://instagram.com/marmolesatenea">
-    <span style="font-size: 1.5rem;">
-        <span style="color: white;">
-            <i class="fab fa-instagram"></i>
-        </span>
-    </span>
-    </a>
-</div>                    </div><!-- end title -->
+                       
+                    </div><!-- end title -->
                 </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
@@ -627,7 +619,7 @@ data-layout="button_count">
                         <a href="#pricing">Precios</a>
                         <a href="#contact">Contacto</a>
                     </p>
-                    <p class="footer-company-name">Todos los derechos reservados.  &copy; 2021 Softcode sas.   Design By : 
+                    <p class="footer-company-name">Todos los derechos reservados.  &copy; 2021 Softcode. Para Marmoles Atenea s.a.s.  Design By : 
                     <a href="https://html.design/">html design</a></p>
                 </div>
             </div>
