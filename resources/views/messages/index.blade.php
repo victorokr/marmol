@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+
+
     <section id="home" class="main-banner">
-        
+
         <div class="slider-new-2 owl-carousel owl-theme">
                 
             <div class="item slider-screen">
@@ -56,6 +58,20 @@
         
     </section>
     
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                @if (session()->has('infoEmail'))
+                <div class="alert alert-success mt-1 text-center" style="width: 900px" id="alerta" >
+                    <strong>Aviso: </strong>{{ session('infoEmail') }}
+                        <button type="button" class="close" data-dismiss="alert" arial-label="cerrar" >
+                            <span arial-hidden="true"> &times; </span>
+                        </button>
+                </div>
+                @endif
+            </div>	
+        </div>
+    </div>
     
 
     <div id="about" class="section lb">
@@ -79,47 +95,14 @@
 
                 <div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/quienes.png" alt="" class="img-fluid img-rounded">
+                        <img src="uploads/quienes.jpg" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
     
-    <!-- <div class="section cont-box">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="inner-cont-box">
-                        <i class="flaticon-projector-screen"></i>
-                        <h3 class="counter-number">500</h3>
-                        <h4>Proyectos realizados</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="inner-cont-box">
-                        <i class="flaticon-alarm-clock"></i>
-                        <h3 class="counter-number">10</h3>
-                        <h4>Años de experiencia</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="inner-cont-box">
-                        <i class="flaticon-idea"></i>
-                        <h3 class="counter-number">500</h3>
-                        <h4>Ideas</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="inner-cont-box">
-                        <i class="flaticon-review"></i>
-                        <h3 class="counter-number">200</h3>
-                        <h4>Clientes</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
     
     <div id="services" class="section lb">
         <div class="container-fluid">
@@ -546,41 +529,44 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
-                        <div id="message"></div>
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <div id="messagee"></div>
+                        <form method="POST" action="{{ route('emails.store') }}" id="contactFormm" name="sentMessagee">
+                        {!!csrf_field() !!}
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="name" type="text" placeholder="Tu nombre" required="required" data-validation-required-message="Por favor ingresa tu nombre.">
-                                        <p class="help-block text-danger"></p>
+                                        <input class="form-control" id="namee" name="nombre" type="text" placeholder="Tu nombre" required>
+                                        {!!$errors->first('nombre','<span class=error>:message</span>')!!}
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="email" type="email" placeholder="Tu correo electronico" required="required" data-validation-required-message="Por favor ingresa tu correo electronico.">
-                                        <p class="help-block text-danger"></p>
+                                        <input class="form-control" id="emaill" name="email" type="email" placeholder="Tu correo electronico" required>
+                                        {!!$errors->first('email','<span class=error>:message</span>')!!}
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input class="form-control" id="phone" type="tel" placeholder="Tu numero de telefono" required="required" data-validation-required-message="Por favor ingresa tu numero de telefono.">
-                                        <p class="help-block text-danger"></p>
+                                        <input class="form-control" id="phonee" name="phone" type="tel" placeholder="Tu numero de telefono" required>
+                                        {!!$errors->first('phone','<span class=error>:message</span>')!!}
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Tu mensaje" required="required" data-validation-required-message="Por favor ingresa un mensaje."></textarea>
-                                        <p class="help-block text-danger"></p>
+                                        <textarea class="form-control" id="messagee" name="mensaje" placeholder="Tu mensaje" required></textarea>
+                                        {!!$errors->first('mensaje','<span class=error>:message</span>')!!}
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <div id="success"></div>
-                                    <button id="sendMessageButton" class="sim-btn hvr-rectangle-out" data-text="Send Message" type="submit">Enviar mensaje</button>
+                                    <div id="successs"></div>
+                                    <button type="submit" class="sim-btn hvr-rectangle-out" >Enviar mensaje</button>
                                 </div>
                             </div>
                         </form>
                     </div>
+
+                    
                     <div class="section-title text-center mt-2">
                       <p>comunicate al <i class="fab fa-whatsapp"></i> 3133808771</p>
 

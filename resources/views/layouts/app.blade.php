@@ -6,9 +6,9 @@
     <!-- sharing/webmasters -->
     <meta property="og:url"           content="https://marmolesatenea.com.co" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Marmoles Atenea" />
-    <meta property="og:description"   content="Conozca nuestras soluciones y servicos en marmol para construir, remodelar interiores y exteriores de tu hogar, local u oficina." />
-    <meta property="og:image"         content="https://marmolesatenea.com.co/uploads/slider-01.jpg" />
+    <meta property="og:title"         content="Conozca nuestras soluciones y servicos en marmol para construir, remodelar interiores y exteriores de tu hogar, local u oficina." />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="https://marmolesatenea.com.co/public_html/uploads/slider-01.jpg" />
 
 
 
@@ -36,7 +36,7 @@
     <!-- Site Icons -->
   <!--   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> -->
-    <link rel="shortcut icon" href="/images/marmolicono1.png">
+    <link rel="shortcut icon" href="/images/marmolicono1.PNG">
 
 
     <!-- scripts -->
@@ -107,6 +107,8 @@
       </div>
     </nav>
 
+    
+
     <div class="social">
       <ul>
         <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="#"><i class="face fab fa-facebook"></i></a>  </li>
@@ -128,9 +130,8 @@
 	<script src="js/headline.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/jquery.nicescroll.min.js"></script>
-	<!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+	
+  
   <!-- ALL PLUGINS -->
   <script src="js/custom.js"></script>
 </body>
