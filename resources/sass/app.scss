@@ -1740,7 +1740,25 @@ hr.invis1 {
 	box-shadow: 0 0 10px #ccc;
 }
 
-.gallery-list .img-overlay {
+//nueva galeria
+.column {
+    //float: left;
+    //width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.show {
+    display: block;
+  }
+//fin nueva galeria
+
+.galeria .img-overlay {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -1756,13 +1774,13 @@ hr.invis1 {
     transform: translateY(10px);
 }
 
-.gallery-list .gallery-single:hover .img-overlay {
+.galeria .gallery-single:hover .img-overlay {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
 
-.gallery-list .gallery-single:hover .img-overlay .hoverbutton{
+.galeria .gallery-single:hover .img-overlay .hoverbutton{
 	opacity: 1;
 	top: 50%;
 }
@@ -1796,7 +1814,7 @@ hr.invis1 {
 	-webkit-transition: all .5s;
     transition: all .5s;
 }
-.gallery-list .gallery-single:hover .img-overlay h3{
+.galeria .gallery-single:hover .img-overlay h3{
 	opacity: 1;
 	top: 30%;
 }
@@ -2803,7 +2821,7 @@ select.mobile-device {
 .social {
     position: fixed;
     left: 0;
-    top: 210px;//arriba o abajo buttons
+    top: 413px;//arriba o abajo buttons
     z-index: 2000;
 }
 
@@ -2825,19 +2843,19 @@ select.mobile-device {
 //color botones
 .social ul li .btn-face {background: #3b5998;}
 .social ul li .btn-insta {background: #e95950;}
-.social ul li .btn-twitt {background: #00abf0;}
+.social ul li .btn-twitt {background: #00bb2d;}
 
 //tamaño iconos
 .social ul li .face{
-    font-size: 17px; //tamaño del icono
+    font-size: 13px; //tamaño del icono
 }
 
 .social ul li .insta{
-    font-size: 17px; //tamaño del icono
+    font-size: 13px; //tamaño del icono
 }
 
-.social ul li .twitt{
-    font-size: 15px; //tamaño del icono
+.social ul li .whatsapp{
+    font-size: 13px; //tamaño del icono
 }
 
 //hover

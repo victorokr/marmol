@@ -12662,7 +12662,22 @@ hr.invis1 {
   box-shadow: 0 0 10px #ccc;
 }
 
-.gallery-list .img-overlay {
+.column {
+  display: none;
+  /* Hide all elements by default */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.show {
+  display: block;
+}
+
+.galeria .img-overlay {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -12676,12 +12691,12 @@ hr.invis1 {
   transform: translateY(10px);
 }
 
-.gallery-list .gallery-single:hover .img-overlay {
+.galeria .gallery-single:hover .img-overlay {
   opacity: 1;
   transform: translateY(0);
 }
 
-.gallery-list .gallery-single:hover .img-overlay .hoverbutton {
+.galeria .gallery-single:hover .img-overlay .hoverbutton {
   opacity: 1;
   top: 50%;
 }
@@ -12712,7 +12727,7 @@ hr.invis1 {
   transition: all 0.5s;
 }
 
-.gallery-list .gallery-single:hover .img-overlay h3 {
+.galeria .gallery-single:hover .img-overlay h3 {
   opacity: 1;
   top: 30%;
 }
@@ -13723,7 +13738,7 @@ select.mobile-device {
 .social {
   position: fixed;
   left: 0;
-  top: 210px;
+  top: 413px;
   z-index: 2000;
 }
 
@@ -13749,19 +13764,19 @@ select.mobile-device {
 }
 
 .social ul li .btn-twitt {
-  background: #00abf0;
+  background: #00bb2d;
 }
 
 .social ul li .face {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .social ul li .insta {
-  font-size: 17px;
+  font-size: 13px;
 }
 
-.social ul li .twitt {
-  font-size: 15px;
+.social ul li .whatsapp {
+  font-size: 13px;
 }
 
 .social ul li a:hover {

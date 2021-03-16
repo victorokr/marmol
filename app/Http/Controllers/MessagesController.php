@@ -25,16 +25,9 @@ class MessagesController extends Controller
      */
     public function create(Request $request)
     {
-        $mensaje = ( $request->all() );
+        
 
-        // $prestamos->Fecha_prestamo = $request->input('Fecha_prestamo');
-        // $idDelLibro = $request->get ('id_materialBiblioteca');
-
-        Mail::to('victorokr@hotmail.com','victor')->send(new MensajeRecibido($mensaje));
-
-        return view('messages.index', compact('mensaje')->with('infoEmail','Mensaje enviado'));
-
-        // return redirect()->route('messages.index')->with('infoEmail','Mensaje enviado');
+        
     }
 
     /**
@@ -48,7 +41,7 @@ class MessagesController extends Controller
         $mensaje = ( $request->all() );
         Mail::to('cotizaciones@marmolesatenea.com.co','Faroox')->send(new MensajeRecibido($mensaje));
 
-        return back()->with('infoEmail','Mensaje enviado');
+        return back()->with('infoEmail','Mensaje enviado, nos contáctaremos en el menor tiempo posible');
     }
 
     /**

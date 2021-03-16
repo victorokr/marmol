@@ -189,7 +189,7 @@
     </div><!-- end section -->
     
     <div id="products" class="section wb">
-        <div class="container-fluid">
+        <div class="container-fluid"><!-- quitar fluid si el responsive falla -->
             <div class="section-title text-center">
                 <h3>Productos</h3>
                 <p>Nuestros proyectos estan a la altura de tus exigencias.</p>
@@ -197,19 +197,19 @@
             
             <div class="gallery-menu row">
                 <div class="col-md-12">
-                    <div class="button-group filter-button-group text-center">
-                        <button class="hvr-rectangle-out active" data-filter="*">Todo</button>
-                        <button class="hvr-rectangle-out" data-filter=".gal_a">Baños</button>
-                        <button class="hvr-rectangle-out" data-filter=".gal_b">Cocina</button>
-                        <button class="hvr-rectangle-out" data-filter=".gal_c">Enchapes </button>
-                        <button class="hvr-rectangle-out" data-filter=".gal_d">Exteriores</button>
-                        <button class="hvr-rectangle-out" data-filter=".gal_e">Chimeneas</button>
+                    <div id="myBtnContainer" class="button-group filter-button-group " >
+                        <button class="btn active hvr-rectangle-out " onclick="filterSelection('all')">Todo</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('baños')" >Baños</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('cocina')" >Cocina</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('enchapes')" >Enchapes </button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('exteriores')" >Exteriores</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('chimeneas')" >Chimeneas</button>
                     </div>
                 </div>
             </div>
             
-            <div class="gallery-list row">
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+            <div class="galeria row">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4 ">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolBlancoSeus.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -219,7 +219,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a ">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4  ">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCafeFaraon.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4 ">
                     <div class="gallery-single fix">
                         <img src="uploads/gramarston.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
                         <img src="uploads/QuarztoneBlancoPolar.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -249,7 +249,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
                         <img src="uploads/QuarztoneKeniaBlack.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -259,7 +259,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_a">
+                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCrema Sienna.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -269,17 +269,17 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/GranisotNegroAbsoluto.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granisot Negro Absoluto </h3>
+                            <h3>Granito Negro Absoluto </h3>
                             <a href="uploads/GranisotNegroAbsoluto.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoAmarilloAtlantico.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -289,7 +289,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoTurronChino.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -299,7 +299,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/QuarztoneBlancoPolar1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -309,7 +309,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/GramarstonDucalGold.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -319,7 +319,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
                         <img src="uploads/GramarstonToranoEstatuario.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -329,7 +329,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCalacata.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -339,7 +339,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCremaMarfil.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -349,7 +349,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCremaSienna.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -359,7 +359,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolVainilla.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -369,7 +369,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolSilverBlue.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -379,7 +379,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoTitaniumGold.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -389,7 +389,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/Pizarra.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -399,7 +399,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/PiedraBlanca.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -409,7 +409,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoNatural.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -419,7 +419,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/GramarstonCrotonePupisMate.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -429,7 +429,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoAntiqueBrown.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -439,7 +439,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCafeFaraonExterior.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -449,7 +449,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/GramarstonToranoEstatuario1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -459,7 +459,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/GranitoBlancoSelecto.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -469,7 +469,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/MagnificBrownChimenea.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -479,7 +479,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolCremaSienna1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -489,7 +489,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/MarmolGreyBLueWave.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -499,7 +499,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
                         <img src="uploads/MosaicoCrema.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
@@ -602,11 +602,12 @@
                         <a href="#about">Quienes somos</a>
                         <a href="#services">Servicios</a>
                         <a href="#produts">Productos</a>
-                        <a href="#pricing">Precios</a>
                         <a href="#contact">Contacto</a>
                     </p>
                     <p class="footer-company-name">Todos los derechos reservados.  &copy; 2021 Softcode. Para Marmoles Atenea s.a.s.  Design By : 
-                    <a href="https://html.design/">html design</a></p>
+                    <a href="https://html.design/">html design.</a></p>
+
+                    <p class="footer-company-name">cotizaciones@marmolesatenea.com.co</p>
                 </div>
             </div>
         </div><!-- end container -->

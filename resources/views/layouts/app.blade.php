@@ -111,9 +111,9 @@
 
     <div class="social">
       <ul>
-        <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="#"><i class="face fab fa-facebook"></i></a>  </li>
+        <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="https://www.facebook.com/Marmoles-Atenea-101161752057205/?ref=page_internal"><i class="face fab fa-facebook"></i></a>  </li>
         <li><a class="btn-insta" title="siguenos en instagram" target="_blank"  href="https://instagram.com/marmolesatenea" role="button"><i class="insta fab fa-instagram"></i></a>  </li>
-        <li><a class="btn-twitt" title="siguenos en twitter"   target="_blank"  href="#" role="button"><i class="twitt fab fa-twitter"></i></a>  </li>
+        <li><a class="btn-twitt" title="contáctanos por whatsapp"   target="_blank"  href="https://api.whatsapp.com/send?phone=573133808771" role="button"><i class="whatsapp fab fa-whatsapp"></i></a>  </li>
       </ul>  
     </div>
 
@@ -125,7 +125,8 @@
   <script src="js/all.js"></script>
 	<!-- Camera Slider -->
 	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/jquery.easing.1.3.js"></script>
+   
 	<script src="js/parallaxie.js"></script>
 	<script src="js/headline.js"></script>
 	<script src="js/owl.carousel.js"></script>
@@ -134,5 +135,8 @@
   
   <!-- ALL PLUGINS -->
   <script src="js/custom.js"></script>
+
+
+  <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>
