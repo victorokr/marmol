@@ -136,7 +136,7 @@
   <!-- ALL PLUGINS -->
   <script src="js/custom.js"></script>
 
-
+  <!-- gallery filter -->
   <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>
