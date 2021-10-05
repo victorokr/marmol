@@ -199,312 +199,312 @@
                 <div class="col-md-12">
                     <div id="myBtnContainer" class="button-group filter-button-group " >
                         <button class="btn active hvr-rectangle-out " onclick="filterSelection('all')">Todo</button>
-                        <button class="btn hvr-rectangle-out" onclick="filterSelection('baños')" >Baños</button>
-                        <button class="btn hvr-rectangle-out" onclick="filterSelection('cocina')" >Cocina</button>
-                        <button class="btn hvr-rectangle-out" onclick="filterSelection('enchapes')" >Enchapes </button>
-                        <button class="btn hvr-rectangle-out" onclick="filterSelection('exteriores')" >Exteriores</button>
-                        <button class="btn hvr-rectangle-out" onclick="filterSelection('chimeneas')" >Chimeneas</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('GranitoNatural')" >Granito Natural</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('marmol')" >Marmol</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('PiedraSinterizada')" >Piedra Sinterizada</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('Quarztone')" >Quarztone</button>
+                        <button class="btn hvr-rectangle-out" onclick="filterSelection('Restauraciones')" >Restauraciones</button>
                     </div>
                 </div>
             </div>
             
             <div class="galeria row">
-                <div class="column baños col-md-4 col-sm-6 col-lg-4 ">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4 ">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolBlancoSeus.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NegroSanGabriel.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Blanco Seus</h3>
-                            <a href="uploads/MarmolBlancoSeus.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Negro San Gabriel</h3>
+                            <a href="uploads/NegroSanGabriel.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column baños col-md-4 col-sm-6 col-lg-4  ">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4  ">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCafeFaraon.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NegroAbsoluto.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Cafe Faraon</h3>
-                            <a href="uploads/MarmolCafeFaraon.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Negro Absoluto</h3>
+                            <a href="uploads/NegroAbsoluto.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column baños col-md-4 col-sm-6 col-lg-4 ">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4 ">
                     <div class="gallery-single fix">
-                        <img src="uploads/gramarston.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/AmarilloAtlantico.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Gramarston</h3>
-                            <a href="uploads/gramarston.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Amarillo Atlantico</h3>
+                            <a href="uploads/AmarilloAtlantico.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
-                        <img src="uploads/QuarztoneBlancoPolar.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/CosmicBlack.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Quarztone Blanco Polar</h3>
-                            <a href="uploads/QuarztoneBlancoPolar.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Cosmic Black</h3>
+                            <a href="uploads/CosmicBlack.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
-                        <img src="uploads/QuarztoneKeniaBlack.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/CoffeBrown.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Quarztone Kenia Black </h3>
-                            <a href="uploads/QuarztoneKeniaBlack.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Coffe Brown </h3>
+                            <a href="uploads/CoffeBrown.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column baños col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
+                <div class="column GranitoNatural col-md-4 col-sm-6 col-lg-4 gallery-grid gal_a">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCrema Sienna.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NegroAbsoluto1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Crema Sienna</h3>
-                            <a href="uploads/MarmolCrema Sienna.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Negro Absoluto</h3>
+                            <a href="uploads/NegroAbsoluto1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranisotNegroAbsoluto.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Calacata.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Negro Absoluto </h3>
-                            <a href="uploads/GranisotNegroAbsoluto.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Calacata </h3>
+                            <a href="uploads/Calacata.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoAmarilloAtlantico.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Volakas.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Amarillo Atlantico </h3>
-                            <a href="uploads/GranitoAmarilloAtlantico.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Volakas </h3>
+                            <a href="uploads/Volakas.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoTurronChino.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NegroPortonero.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>GranitoTurron Chino </h3>
-                            <a href="uploads/GranitoTurronChino.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Negro Portonero </h3>
+                            <a href="uploads/NegroPortonero.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/QuarztoneBlancoPolar1.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NegroMarkina.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Quarztone Blanco Polar  </h3>
-                            <a href="uploads/QuarztoneBlancoPolar1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Negro Markina  </h3>
+                            <a href="uploads/NegroMarkina.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/GramarstonDucalGold.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/CremaSienna1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Gramarston Ducal Gold  </h3>
-                            <a href="uploads/GramarstonDucalGold.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Crema Sienna  </h3>
+                            <a href="uploads/CremaSienna1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column cocina col-md-4 col-sm-6 gallery-grid gal_b">
+                <div class="column marmol col-md-4 col-sm-6 gallery-grid gal_b">
                     <div class="gallery-single fix">
-                        <img src="uploads/GramarstonToranoEstatuario.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/CremaMarfil.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Gramarston Torano Estatuario  </h3>
-                            <a href="uploads/GramarstonToranoEstatuario.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Crema Marfil  </h3>
+                            <a href="uploads/CremaMarfil.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCalacata.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Statuario.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Calacata  </h3>
-                            <a href="uploads/MarmolCalacata.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Statuario  </h3>
+                            <a href="uploads/Statuario.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCremaMarfil.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/GrassiWhite.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Crema Marfil  </h3>
-                            <a href="uploads/MarmolCremaMarfil.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Grassi White  </h3>
+                            <a href="uploads/GrassiWhite.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCremaSienna.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/DucalGold.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Crema Sienna  </h3>
-                            <a href="uploads/MarmolCremaSienna.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Ducal Gold  </h3>
+                            <a href="uploads/DucalGold.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolVainilla.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/CardosoGrey.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Vainilla  </h3>
-                            <a href="uploads/MarmolVainilla.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Cardoso Grey  </h3>
+                            <a href="uploads/CardosoGrey.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolSilverBlue.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/BeldevereBlack.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Silver Blue  </h3>
-                            <a href="uploads/MarmolSilverBlue.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Beldevere Black  </h3>
+                            <a href="uploads/BeldevereBlack.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column enchapes col-md-4 col-sm-6 gallery-grid gal_c">
+                <div class="column PiedraSinterizada col-md-4 col-sm-6 gallery-grid gal_c">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoTitaniumGold.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/ToranoEstatuario.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Titanium Gold  </h3>
-                            <a href="uploads/GranitoTitaniumGold.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Torano Estatuario  </h3>
+                            <a href="uploads/ToranoEstatuario.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/Pizarra.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Polar.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Pizarra  </h3>
-                            <a href="uploads/Pizarra.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Polar  </h3>
+                            <a href="uploads/Polar.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/PiedraBlanca.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/NewBlancoPolar.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Piedra Blanca  </h3>
-                            <a href="uploads/PiedraBlanca.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>New Blanco Polar  </h3>
+                            <a href="uploads/NewBlancoPolar.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoNatural.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/KeniaBlack.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Natural  </h3>
-                            <a href="uploads/GranitoNatural.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Kenia Black  </h3>
+                            <a href="uploads/KeniaBlack.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/GramarstonCrotonePupisMate.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Calacata1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Gramarston Crotone Pupis Mate  </h3>
-                            <a href="uploads/GramarstonCrotonePupisMate.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Calacata  </h3>
+                            <a href="uploads/Calacata1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoAntiqueBrown.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/BlancoPolar.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Antique Brown  </h3>
-                            <a href="uploads/GranitoAntiqueBrown.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Blanco Polar  </h3>
+                            <a href="uploads/BlancoPolar.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column exteriores col-md-4 col-sm-6 gallery-grid gal_d">
+                <div class="column Quarztone col-md-4 col-sm-6 gallery-grid gal_d">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCafeFaraonExterior.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/Calacata2.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Cafe Faraon Exterior </h3>
-                            <a href="uploads/MarmolCafeFaraonExterior.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Calacata </h3>
+                            <a href="uploads/Calacata2.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/GramarstonToranoEstatuario1.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion6.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Gramarston Torano Estatuario </h3>
-                            <a href="uploads/GramarstonToranoEstatuario1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion6.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/GranitoBlancoSelecto.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion5.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Granito Blanco Selecto </h3>
-                            <a href="uploads/GranitoBlancoSelecto.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion5.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/MagnificBrownChimenea.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion4.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Magnific Brown Chimenea </h3>
-                            <a href="uploads/MagnificBrownChimenea.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion4.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolCremaSienna1.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion3.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Crema Sienna </h3>
-                            <a href="uploads/MarmolCremaSienna1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion3.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/MarmolGreyBLueWave.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion2.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Marmol Grey BLue Wave </h3>
-                            <a href="uploads/MarmolGreyBLueWave.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion2.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="column chimeneas col-md-4 col-sm-6 gallery-grid gal_e">
+                <div class="column Restauraciones col-md-4 col-sm-6 gallery-grid gal_e">
                     <div class="gallery-single fix">
-                        <img src="uploads/MosaicoCrema.jpg" class="img-fluid" alt="Image">
+                        <img src="uploads/restauracion1.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <h3>Mosaico Crema </h3>
-                            <a href="uploads/MosaicoCrema.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            <h3>Restauraciones </h3>
+                            <a href="uploads/restauracion1.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                         </div>
                     </div>
                 </div>
