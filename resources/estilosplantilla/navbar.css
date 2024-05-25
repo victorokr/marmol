@@ -1,0 +1,14 @@
+.hoverlink:hover{
+   background-color: #555555;
+   color: white;
+}
+
+.hoverlink{
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+

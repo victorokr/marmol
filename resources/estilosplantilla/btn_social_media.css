@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------
+    BUTTONS
+-------------------------------------------------------------------*/
+
+.navbar-default .btn-light {
+    padding: 0 20px;
+    margin-left: 15px;
+  }
+  
+  .btn {
+    border: 0 !important;
+  }
+  
+  .btn-light {
+    padding: 10px 40px;
+    font-size: 18px;
+    border: 2px solid #ffffff !important;
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .btn-dark {
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 1px solid #ececec !important;
+    color: #1f1f1f;
+    background-color: transparent;
+  }
+  
+  .btn-light:hover,
+  .btn-light:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .social {
+    position: fixed;
+    left: 0;
+    top: 413px;
+    z-index: 2000;
+  }
+  
+  .social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+  }
+  
+  .social ul li .btn-face {
+    background: #3b5998;
+  }
+  
+  .social ul li .btn-insta {
+    background: #e95950;
+  }
+  
+  .social ul li .btn-twitt {
+    background: #00bb2d;
+  }
+  
+  .social ul li .face {
+    font-size: 13px;
+  }
+  
+  .social ul li .insta {
+    font-size: 13px;
+  }
+  
+  .social ul li .whatsapp {
+    font-size: 13px;
+  }
+  
+  .social ul li a:hover {
+    padding: 10px 30px;
+    background: #000;
+  }

@@ -1,0 +1,25 @@
+.img_baner{
+    /*ocupa el 100% del ancho de la pantalla*/
+    /* background-size: cover; */
+    
+}
+
+.control_icono:hover{
+    background-color: #58036530;
+    
+}
+
+.control_icono{
+    padding: 20px;
+    background-color: #0000001a;
+   
+}
+
+
+.borde_purple{
+    background-color: rgb(82, 24, 137); 
+    border-style: double;
+    border-width: 12px;
+    padding: 10px;
+    margin: 0 25% 0 25%;
+}
