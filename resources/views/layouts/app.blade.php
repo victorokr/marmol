@@ -30,8 +30,8 @@
         <meta name="twitter:title"        content="Mármoles Atenea S.A.S - Calidad en Mármol y Granito para Tus Espacios" />
         <meta name="twitter:description"  content="En Mármoles Atenea S.A.S, ofrecemos mármol y granito de alta calidad para transformar tus espacios. ¡Descubre nuestros productos exclusivos!" />
         <meta name="twitter:image"        content="https://marmolesatenea.com.co/public_html/uploads/slider-01.jpg" />
-        <meta name="twitter:site"         content="@marmolesAtenea">
-        <meta name="twitter:creator"      content="@faroox" />
+        <!-- <meta name="twitter:site"         content="@marmolesAtenea">
+        <meta name="twitter:creator"      content="@faroox" /> -->
         <meta name="theme-color"          content="#43149A">
 
 
@@ -50,33 +50,34 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body >
+    <!-- se le pasa el id del nav y la clase de bootstrap: data-bs-spy="scroll" -->
+    <body data-bs-spy="scroll" data-bs-target="#scrolspyNavigationActiveBotton" data-bs-offset="0"  tabindex="0" >
 
             <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="scrolspyNavigationActiveBotton">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <a class="navbar-brand js-scroll-trigger" href="#">
-                            <img class="img-fluid" src="images/logo4.png" alt="" />
+                            <img class="img-fluid" src="images/logo2.png" alt="" />
                         </a>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                            <a class="hoverlink nav-link" href="#">Inicio</a>
+                            <a class="hoverlink nav-link" href="#inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                            <a class="hoverlink nav-link" href="#">Quienes somos</a>
+                            <a class="hoverlink nav-link" href="#quienes">Quienes somos</a>
                             </li>
                             <li class="nav-item">
-                            <a class="hoverlink nav-link" href="#">Servicios</a>
+                            <a class="hoverlink nav-link" href="#servicios">Servicios</a>
                             </li>
                             <li class="nav-item">
-                            <a class="hoverlink nav-link" href="#">Productos</a>
+                            <a class="hoverlink nav-link" href="#productos">Productos</a>
                             </li>
                             <li class="nav-item">
-                            <a class="hoverlink nav-link" href="#">Contáctanos</a>
+                            <a class="hoverlink nav-link" href="#contacto">Contáctanos</a>
                             </li>
                            
                         </ul>
@@ -89,9 +90,10 @@
 
             <div class="social">
             <ul>
-                <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="https://www.facebook.com/Marmoles-Atenea-101161752057205/?ref=page_internal"><i class="face fab fa-facebook"></i></a>  </li>
-                <li><a class="btn-insta" title="siguenos en instagram" target="_blank"  href="https://instagram.com/marmolesatenea" role="button"><i class="insta fab fa-instagram"></i></a>  </li>
-                <li><a class="btn-twitt" title="contáctanos por whatsapp"   target="_blank"  href="https://api.whatsapp.com/send?phone=573133808771" role="button"><i class="whatsapp fab fa-whatsapp"></i></a>  </li>
+                <li><a class="btn-face" title="siguenos en facebook"   target="_blank"  href="https://www.facebook.com/Marmoles-Atenea-101161752057205/?ref=page_internal"><img class="img_social" src="images/face.png" alt="" /></a>  </li>
+                <li><a class="btn-insta" title="siguenos en instagram" target="_blank"  href="https://instagram.com/marmolesatenea" role="button"><img class="img_social" src="images/insta.png" alt="" /></a>  </li>
+                <li><a class="btn-whats" title="contáctanos por whatsapp"   target="_blank"  href="https://api.whatsapp.com/send?phone=573133808771" role="button"><img class="img_social" src="images/whats.png" alt="" /></a>  </li>
+                <li><a class="btn-linke" title="contáctanos por linkedin"   target="_blank"  href="https://www.linkedin.com/in/liemann-faroox-quintero-d%C3%ADaz-a38aa7106?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" role="button"><img class="img_social" src="images/linkedin.png" alt="" /></a>  </li>
             </ul>  
             </div>
 

@@ -55,7 +55,7 @@
     display: inline-block;
     color: #fff;
     background: #000;
-    padding: 10px 15px;
+    padding: 7px;
     text-decoration: none;
     transition: all 500ms ease;
   }
@@ -68,8 +68,12 @@
     background: #e95950;
   }
   
-  .social ul li .btn-twitt {
+  .social ul li .btn-whats {
     background: #00bb2d;
+  }
+
+  .social ul li .btn-linke {
+    background: #1d6eb1;
   }
   
   .social ul li .face {
@@ -88,3 +92,7 @@
     padding: 10px 30px;
     background: #000;
   }
+
+  /* .img_social{
+    padding: 0;
+  } */

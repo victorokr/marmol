@@ -12,3 +12,17 @@
     letter-spacing: 1.3px;
 }
 
+.navbar{
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 2px 38px 2px 38px;
+}
+
+/* aplica estilos a la clase de bootstrap active cuando se trabaja con scrollspy */
+.hoverlink.nav-link.active{
+    background-color: #555555;
+    color: white;
+}
+
