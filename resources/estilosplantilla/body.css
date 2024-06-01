@@ -1,0 +1,58 @@
+body {
+    /* evitar la superposición con otros elementos cuando se usa la clase de bootstrap fixed-top en el nav  */
+    padding-top: 105px;
+    background-color: #f2f3f5;
+    
+ }
+
+
+
+html, body{
+	/* height: 100%; */
+   scrollbar-color: #432382 #f2f3f5;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    body {
+        padding-top: 45px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    body {
+        padding-top: 45px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    body {
+        padding-top: 45px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+    body {
+        padding-top: 105px !important;
+    }
+   
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+    body {
+      
+    }
+    
+  }
+
+@media (min-width: 1400px) {
+    .body {
+      
+    }
+  }

@@ -1,0 +1,183 @@
+
+
+.styletext_title{
+    color: #432382;
+    /* font-size: 32px; */
+    font-weight: 500;
+    
+}
+
+.styletext_title2{
+    color: #363535;
+    /* font-size: 30px; */
+    font-weight: 600;
+    
+}
+
+.p_text{
+    color: #999999;
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.card_color{
+    background-color: #f2f3f5;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.btn_card{
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(55, 54, 54, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+}
+
+.btn_card:hover{
+    background-color: #432382;
+}
+
+
+/* marco morado esquinas de la tarjeta */
+.custom_border_card{
+    position: relative;
+    
+    /* width: auto;
+    height: auto; */
+    
+}
+
+.custom_border_card:before,
+.custom_border_card:after,
+.custom_border_card>:first-child:before,
+.custom_border_card>:first-child:after{
+    position: absolute;
+    width: 100px; /*largo ambas lineas de la esquina superior izquierda*/
+    height: 100px;
+    border-color: #432382;
+    border-style: solid;
+    content: '';
+    
+    /* background-color: #432382;
+    z-index: 1; */
+}
+
+.custom_border_card:before{
+    
+    top: auto;
+    left: auto;
+    border-width: 0px 0px 0px 0px;
+}
+
+.custom_border_card:after{
+    top: 0;
+    left: auto;
+    /*ancho de la lineas superior izquierda*/
+    border-width: 20px 0px 0px 20px;
+   
+}
+
+.custom_border_card>:first-child:before{
+    bottom: 0;
+    right: 0;
+    border-width: 0 0px 0px 0;
+}
+
+.custom_border_card>:first-child::after{
+    bottom: 0;
+    right: 0;
+    border-width: 0px 20px 20px 0px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.img_shadow {
+    box-shadow: 0 4px 8px 0 rgba(55, 54, 54, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+    border-radius: 5px;
+    /* background-color: #f2f3f5; */
+}
+
+/* container-fluid. por que bootstrap no permite un px-lg-7 mayor a 7*/
+@media (min-width: 1200px) {
+    .px-lg-custom {
+        padding: 0 6rem 0 6rem !important; /* Personaliza este valor según tus necesidades */
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* texto responsivo personalizado por que bootstrap no permite: fs-xs-2  fs-sm-5  fs-md-3 fs-lg-1 fs-xl-2*/
+/* Tamaño de fuente para extra small */
+@media (max-width: 575.98px) {
+    .fs-xs-6-custom {
+      font-size: 15px !important;
+    }
+    .btn_card{
+        font-size: 16px;
+        padding: 5px;
+    }
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    .fs-sm-5-custom {
+      font-size: 16px !important;
+    }
+    .btn_card{
+        font-size: 16px;
+        padding: 5px;
+    }
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    .fs-md-4-custom {
+      font-size: 20px !important;
+    }
+    .btn_card{
+        font-size: 18px;
+        padding: 10px 15px 10px 15px;
+    }
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+    .fs-lg-3-custom {
+      font-size: 20px !important;
+    }
+    /* espacio de altura entre texto */
+    .line-height-custom {
+        line-height: 19px !important;
+    } 
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+    .fs-xl-2-custom {
+      font-size: 20px !important;
+    }
+    .line-height-custom {
+        line-height: normal !important;
+    } 
+  }
+
+@media (min-width: 1400px) {
+    .fs-xxl-1-custom {
+      font-size: 20px !important;
+    }
+  }

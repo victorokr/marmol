@@ -90,8 +90,39 @@
         </button>
     </div>
 </section>
-<section id="quienes">
-    <h3>quienes</h3>
+<section class="py-5"  id="quienes">
+    <div class="container-fluid px-3 px-sm-4 px-md-5 px-lg-custom ">
+        <div class="row">
+          <div class="card-group p-0">
+            <div class="col col-md-12 col-sm-12 col-lg-6  p-1">
+                <div class="card card_color border-0 custom_border_card  ">
+                    <div class="card-body py-4 px-5  ">
+                        <h3 class="card-title styletext_title2 py-2  fs-1">Bienvenidos.</h3>
+                        <p class="p_text line-height-custom  fs-xs-6-custom fs-sm-5-custom fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Queremos dar a conocer nuestra empresa con mas de 10 años de experiencia, la primera opción cuando los clientes piensen en remodelar o construir, y así brindarles los mejores productos para todo tipo de uso..</p>
+                        <h5 class="card-title styletext_title py-0   fs-3">Servicio a domicilio.</h5>
+                        <h5 class="card-title styletext_title2 py-0  fs-3 ">Cotización.</h5>
+                        <p class="p_text line-height-custom   fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Nuestro equipo brinda una cotización personalizada deacuerdo a tus necesidades.</p>
+                        <h5 class="card-title styletext_title2 py-0  fs-3">Programación.</h5>
+                        <p class="p_text line-height-custom  fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Acordamos una fecha de instalación que se acomode a tu agenda.</p>
+                        <h5 class="card-title styletext_title2 py-0  fs-3">Instalación.</h5>
+                        <p class="p_text line-height-custom  fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Nuestros expertos realizan una instalación impecable con el mayor cuidado.</p>
+                        <a href="#contacto" class="btn btn-sm text-nowrap btn_card btn-light">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-12 col-sm-12 col-lg-6">
+                <div class="card card_color border-0  ">
+                        <img src="uploads/quienes2.jpg" class="img_shadow card-img-center  " alt="...">
+                        <div class="card-body ">
+            
+                        </div>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </div>  
+    
+    
 </section>
 <section id="servicios">
     <h3>servicios</h3>
