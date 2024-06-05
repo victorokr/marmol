@@ -1,0 +1,65 @@
+:root{
+    --white: #f2f3f5;
+    --purple: #432382;
+    --titleBlack: #363535;
+    --parrafoGray: #999999;
+    --blueText: rgb(61, 61, 171);
+}
+
+
+.titlePurple{
+    color: var(--purple);
+    /* font-size: 32px; */
+    font-weight: 500;
+    
+}
+
+.titleBlack{
+    color: var(--titleBlack);
+    /* font-size: 30px; */
+    font-weight: 600;
+    
+}
+
+.parrafo_text{
+    color: var(--parrafoGray);
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.card_color_white{
+    background-color: var(--white);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+
+
+.btn_custom{
+   
+    background-color: var(--white);
+    color: var(--parrafoGray);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(55, 54, 54, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+    transition: 0.5s all ease;
+}
+
+.btn_custom:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+

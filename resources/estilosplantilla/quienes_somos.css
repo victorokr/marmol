@@ -1,50 +1,5 @@
 
 
-.styletext_title{
-    color: #432382;
-    /* font-size: 32px; */
-    font-weight: 500;
-    
-}
-
-.styletext_title2{
-    color: #363535;
-    /* font-size: 30px; */
-    font-weight: 600;
-    
-}
-
-.p_text{
-    color: #999999;
-    /* font-size: 16px; */
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.80857;
-    font-weight: 300;
-    letter-spacing: 1.3px;
-}
-
-.card_color{
-    background-color: #f2f3f5;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-}
-
-.btn_card{
-    background-color: #ffffff;
-    color: #999999;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.80857;
-    font-weight: 300;
-    letter-spacing: 1.3px;
-    text-decoration: none;
-    box-shadow: 0 4px 8px 0 rgba(55, 54, 54, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
-}
-
-.btn_card:hover{
-    background-color: #432382;
-}
-
-
 /* marco morado esquinas de la tarjeta */
 .custom_border_card{
     position: relative;
@@ -107,7 +62,7 @@
 /* container-fluid. por que bootstrap no permite un px-lg-7 mayor a 7*/
 @media (min-width: 1200px) {
     .px-lg-custom {
-        padding: 0 6rem 0 6rem !important; /* Personaliza este valor según tus necesidades */
+        padding: 0 90px 0 90px !important; /* Personaliza este valor según tus necesidades */
     }
     
 }
@@ -127,7 +82,7 @@
     .fs-xs-6-custom {
       font-size: 15px !important;
     }
-    .btn_card{
+    .btn_custom{
         font-size: 16px;
         padding: 5px;
     }
@@ -138,7 +93,7 @@
     .fs-sm-5-custom {
       font-size: 16px !important;
     }
-    .btn_card{
+    .btn_custom{
         font-size: 16px;
         padding: 5px;
     }
@@ -149,7 +104,7 @@
     .fs-md-4-custom {
       font-size: 20px !important;
     }
-    .btn_card{
+    .btn_custom{
         font-size: 18px;
         padding: 10px 15px 10px 15px;
     }

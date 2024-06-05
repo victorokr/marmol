@@ -1,0 +1,39 @@
+.servicios_card{
+    border-radius: 100px 5px 100px !important;
+    box-shadow: 0 4px 8px 0 rgba(161, 160, 160, 0.2), 0 6px 20px 0 rgba(174, 173, 173, 0.19);
+    margin: 0 0 0 20px;
+}
+
+.servicios__card-group {
+    padding: 0;
+}
+
+
+.photo{
+    width: 80px;
+    height: 80px;
+    font-size: 50px; /*tamaño del icono*/
+    background-color: var(--white); /*fondo de la caja*/
+    border-style: solid; /*borde con estilo grueso*/
+    border-color: var(--white); /*borde interno de la caja*/
+    box-shadow: 0 0 0 10px #432382; /*borde externo de la caja*/
+    border-width: 10px;
+}
+
+.iconos{
+    padding-top: 35px;
+}
+
+
+.servicios_linkStyle{
+    text-decoration: none;
+    
+}
+
+.servicios_linkStyle:hover{
+    text-decoration: underline;
+}
+
+
+
+
