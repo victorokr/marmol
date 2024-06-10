@@ -1,7 +1,7 @@
 .servicios_card{
     border-radius: 100px 5px 100px !important;
     box-shadow: 0 4px 8px 0 rgba(161, 160, 160, 0.2), 0 6px 20px 0 rgba(174, 173, 173, 0.19);
-    margin: 0 0 0 20px;
+    margin: 0 0 0 20px;/*espacio entre tarjetas*/
 }
 
 .servicios__card-group {

@@ -162,7 +162,7 @@
                     </div>           
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row pt-3">
                 <div class="card-group servicios__card-group">
                     <div class="col col-md-12 col-sm-12 col-lg-4  pt-4">
                         <div class="card servicios_card border-0">
@@ -213,10 +213,361 @@
                 </div>  
             </div>    
     </section>
-    <section id="productos">
-           <h3>productos</h3>
+    
+</div>
+    <section class="productos__section" id="productos">
+        <div class="container-fluid px-1 px-sm-3 px-md-3 px-lg-custom pt-5 ">
+            <div class="row row_after">
+                <h3 class="card-title styletext_title2 text-center pt-5 px-4 fs-1">Productos.</h3>
+                <p class="parrafo_text text-center pt-4 pb-5 px-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Nuestros proyectos estan a la altura de tus exigencias.</p>
+                <div class="gallery-menu row pb-4 px-0">
+                    <div class="col-md-12 p-0">
+                        <div id="myBtnContainer" class="button-group mx-0 text-center  d-flex flex-column flex-sm-column flex-md-colum flex-lg-colum flex-xl-row filter-button-group " >
+                            <button class="btn active  productos__btn-gallery" onclick="filterSelection('all')">TODO</button>
+                            <button class="btn productos__btn-gallery" onclick="filterSelection('GranitoNatural')" >GRANITO NATURAL</button>
+                            <button class="btn productos__btn-gallery" onclick="filterSelection('marmol')" >MARMOL</button>
+                            <button class="btn productos__btn-gallery" onclick="filterSelection('PiedraSinterizada')" >PIEDRA SINTERIZADA</button>
+                            <button class="btn productos__btn-gallery" onclick="filterSelection('Quarztone')" >QUARZTONE</button>
+                            <button class="btn productos__btn-gallery" onclick="filterSelection('Restauraciones')" >RESTAURACIONES</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-group p-0">
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/NegroSanGabriel.jpg" class="card-img-top" alt="Negro San Gabriel"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro San Gabriel" data-img="uploads/NegroSanGabriel.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Negro San Gabriel</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro San Gabriel" data-img="uploads/NegroSanGabriel.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/GranitoBlancoMediterraneo.jpg" class="card-img-top" alt="Blanco Mediterraneo"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Mediterraneo" data-img="uploads/GranitoBlancoMediterraneo.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Blanco Mediterraneo</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Mediterraneo" data-img="uploads/GranitoBlancoMediterraneo.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/AmarilloAtlantico.jpg" class="card-img-top" alt="Amarillo Atlantico"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Amarillo Atlantico" data-img="uploads/AmarilloAtlantico.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Amarillo Atlantico</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Amarillo Atlantico" data-img="uploads/AmarilloAtlantico.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/CosmicBlack.jpg" class="card-img-top" alt="Cosmic Black"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Cosmic Black" data-img="uploads/CosmicBlack.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Cosmic Black</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Cosmic Black" data-img="uploads/CosmicBlack.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/CoffeBrown.jpg" class="card-img-top" alt="Coffe Brown"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Coffe Brown" data-img="uploads/CoffeBrown.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Coffe Brown</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Coffe Brown" data-img="uploads/CoffeBrown.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column GranitoNatural col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/NegroAbsoluto1.jpg" class="card-img-top" alt="Negro Absoluto"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Absoluto" data-img="uploads/NegroAbsoluto1.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Negro Absoluto</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Absoluto" data-img="uploads/NegroAbsoluto1.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/PiedraMuneca.jpg" class="card-img-top" alt="Piedra Muñeca"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Piedra Muñeca" data-img="uploads/PiedraMuneca.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Piedra Muñeca</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Piedra Muñeca" data-img="uploads/PiedraMuneca.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/MarmolVolakas.jpg" class="card-img-top" alt="Volakas"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Volakas" data-img="uploads/MarmolVolakas.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Volakas</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Volakas" data-img="uploads/MarmolVolakas.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/MarmolNegroMarkina.jpg" class="card-img-top" alt="Negro Markina"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Markina" data-img="uploads/MarmolNegroMarkina.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Negro Markina</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Markina" data-img="uploads/MarmolNegroMarkina.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/MarmolCafeFaraon.jpg" class="card-img-top" alt="Café Faraon"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Café Faraon" data-img="uploads/MarmolCafeFaraon.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Café Faraon</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Café Faraon" data-img="uploads/MarmolCafeFaraon.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/CremaSienna1.jpg" class="card-img-top" alt="Crema Sienna"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Crema Sienna" data-img="uploads/CremaSienna1.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Crema Sienna</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Crema Sienna" data-img="uploads/CremaSienna1.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column marmol col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/NegroMarkinaySilverBlue.jpg" class="card-img-top" alt="Negro Markina y Silver Blue"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Markina y Silver Blue" data-img="uploads/NegroMarkinaySilverBlue.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Negro Markina y Silver Blue</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Negro Markina y Silver Blue" data-img="uploads/NegroMarkinaySilverBlue.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoCalacataMachiaVechia.jpg" class="card-img-top" alt="Calacata Machia Vechia"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Calacata Machia Vechia" data-img="uploads/SinterizadoCalacataMachiaVechia.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Calacata Machia Vechia</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Calacata Machia Vechia" data-img="uploads/SinterizadoCalacataMachiaVechia.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoCardosoGrey.jpg" class="card-img-top" alt="Cardoso Grey"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Cardoso Grey" data-img="uploads/SinterizadoCardosoGrey.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Cardoso Grey</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Cardoso Grey" data-img="uploads/SinterizadoCardosoGrey.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoEstatuario.jpg" class="card-img-top" alt="Estatuario"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Estatuario" data-img="uploads/SinterizadoEstatuario.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Estatuario</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Estatuario" data-img="uploads/SinterizadoEstatuario.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoSaharaNoirBrillado.jpg" class="card-img-top" alt="Sahara Noir Brillado"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Sahara Noir Brillado" data-img="uploads/SinterizadoSaharaNoirBrillado.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Sahara Noir Brillado</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Sahara Noir Brillado" data-img="uploads/SinterizadoSaharaNoirBrillado.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoSaharaNoirMate.jpg" class="card-img-top" alt="Sahara Noir Mate"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Sahara Noir Mate" data-img="uploads/SinterizadoSaharaNoirMate.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Sahara Noir Mate</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Sahara Noir Mate" data-img="uploads/SinterizadoSaharaNoirMate.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column PiedraSinterizada col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/SinterizadoVareceOnixyPulpisGrey.jpg" class="card-img-top" alt="Varece Onixy Pulpis Grey"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Varece Onixy Pulpis Grey" data-img="uploads/SinterizadoVareceOnixyPulpisGrey.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Varece Onixy Pulpis Grey</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Varece Onixy Pulpis Grey" data-img="uploads/SinterizadoVareceOnixyPulpisGrey.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/Polar.jpg" class="card-img-top" alt="Polar"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Polar" data-img="uploads/Polar.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Polar</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Polar" data-img="uploads/Polar.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/NewBlancoPolar.jpg" class="card-img-top" alt="New Blanco Polar"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="New Blanco Polar" data-img="uploads/NewBlancoPolar.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">New Blanco Polar</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="New Blanco Polar" data-img="uploads/NewBlancoPolar.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/KeniaBlack.jpg" class="card-img-top" alt="Kenia Black"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Kenia Black" data-img="uploads/KeniaBlack.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Kenia Black</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Kenia Black" data-img="uploads/KeniaBlack.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/QuarztoneBlancoPolarr.jpg" class="card-img-top" alt="Quarztone Blanco Polar"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Polar" data-img="uploads/QuarztoneBlancoPolarr.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Blanco Polar</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Polar" data-img="uploads/QuarztoneBlancoPolarr.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/QuaratoneBlancoPolar.jpg" class="card-img-top" alt="Blanco Polar"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Polar" data-img="uploads/QuaratoneBlancoPolar.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Blanco Polar</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Blanco Polar" data-img="uploads/QuaratoneBlancoPolar.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Quarztone col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/Calacata2.jpg" class="card-img-top" alt="Calacata"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Calacata" data-img="uploads/Calacata2.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Calacata</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Calacata" data-img="uploads/Calacata2.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion6.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion6.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion6.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion5.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion5.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion5.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion4.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion4.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion4.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion3.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion3.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion3.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion2.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion2.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion2.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column Restauraciones col col-md-12 col-sm-12 col-lg-4 ">
+                        <div class="card productos__card border-0 ">
+                            <img src="uploads/restauracion1.jpg" class="card-img-top" alt="Restauración"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion1.jpg" >
+                            <div class="overlay  ">
+                                <p class="productos__text pb-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Restauración</p>
+                                <a href="#" class="productos__btn_custom  d-none d-lg-block"   data-bs-toggle="modal" data-bs-target="#imageModal" data-title="Restauración" data-img="uploads/restauracion1.jpg">
+                                    <img src="images/icono_img_galeria3.png" class="" alt="Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>    
+        </div>    
     </section>
-</div> 
     <section id="contacto">
          <h3>contactanos</h3>
     </section>

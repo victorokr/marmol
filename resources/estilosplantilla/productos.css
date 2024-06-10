@@ -1,0 +1,149 @@
+.productos__section{
+    background-color: var(--masBlanco);
+    margin-top: 100px;
+}
+
+.productos__btn-gallery{
+   
+    background-color: #f9f9f9;
+    color: #040404;
+    font-size: 14px;
+    padding:  8px 42px 8px 42px;
+    line-height: 1.80857;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s all ease;
+    border-radius: 0;
+    margin: 0 4px 0 4px;
+}
+
+/* boton active colo purple */
+.productos__btn-gallery.active{
+    background-color: var(--purple);
+    color: var(--masBlanco);
+}
+
+.productos__btn-gallery:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+/* aparece hover con opacidad en la imagen */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(13, 13, 13, 0.6);/* rgba(13, 13, 13, 0.6); en lugar de opacity: 0.6; para aplicar la transparencia solo al color de fondo, no al contenido dentro del contenedor.*/
+    /* opacity: 0.6; */
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    
+  }
+  
+
+.productos__card:hover .overlay{
+    height: 100%;
+}
+
+.productos__text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.80857;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+  
+}
+
+/* icono dentro del overlay */
+.productos__btn_custom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* posiciona el icono en el centro del overlay */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /*------------------------------------------------*/
+    background-color: #c8b7e1;
+    color: #343434;
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+    
+    border-style: solid; /*borde con estilo grueso*/
+    border-color: #ffffff; /*borde interno de la caja*/
+    box-shadow: 0 0 0 5px #432382; /*borde externo de la caja*/
+    border-width: 5px;
+
+}
+
+/* btn overlay */
+.productos__btn_custom:hover{
+    background-color: #ffffff;
+       
+}
+
+
+
+
+/*estilos modal que se inyecta al body con js*/
+.modal-content {
+    border-radius: 0;
+  }
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-img {
+    width: 100%;
+}
+
+
+
+
+
+.productos__card{
+    margin: 0 15px 20px 15px;/*espacio entre tarjetas*/
+}
+
+.button-group{
+   
+    padding: 0 0 0 20px;
+}
+
+
+
+
+/*css para que funcione el filter gallery---------------------------*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+  }
+
+/* Clear floats after rows */ 
+.row_after:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
