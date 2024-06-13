@@ -2,42 +2,42 @@
     BUTTONS
 -------------------------------------------------------------------*/
 
-.navbar-default .btn-light {
+/* .navbar-default .btn-light {
     padding: 0 20px;
     margin-left: 15px;
-  }
+  } */
   
-  .btn {
+  /* .btn {
     border: 0 !important;
-  }
+  } */
   
-  .btn-light {
+  /* .btn-light {
     padding: 10px 40px;
     font-size: 18px;
     border: 2px solid #ffffff !important;
     color: #ffffff;
     background-color: transparent;
-  }
+  } */
   
-  .btn-dark {
+  /* .btn-dark {
     padding: 13px 40px;
     font-size: 18px;
     border: 1px solid #ececec !important;
     color: #1f1f1f;
     background-color: transparent;
-  }
+  } */
   
-  .btn-light:hover,
+  /* .btn-light:hover,
   .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
-  }
+  } */
   
-  * {
+  /* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   
   .social {
     position: fixed;
@@ -76,17 +76,17 @@
     background: #1d6eb1;
   }
   
-  .social ul li .face {
+  /* .social ul li .btn-face {
     font-size: 13px;
   }
   
-  .social ul li .insta {
+  .social ul li .btn-insta {
     font-size: 13px;
   }
   
-  .social ul li .whatsapp {
+  .social ul li .btn-whats {
     font-size: 13px;
-  }
+  } */
   
   .social ul li a:hover {
     padding: 10px 30px;
@@ -96,3 +96,62 @@
   /* .img_social{
     padding: 0;
   } */
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+     .social ul li a {
+      padding: 0 !important;
+     }
+
+     .social ul li a:hover {
+      padding: 1px 10px !important;
+      background: #000;
+    }
+
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    .social ul li a {
+      padding: 0 !important;
+    }
+
+    .social ul li a:hover {
+      padding: 1px 10px !important;
+      background: #000;
+    }
+
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+    .social ul li a {
+      padding: 7px !important;
+    }
+
+    .social ul li a:hover {
+      padding: 10px 30px !important;
+      background: #000;
+    }
+   
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+   
+    
+  }
+
+@media (min-width: 1400px) {
+   
+  }

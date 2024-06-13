@@ -1,6 +1,8 @@
 import './bootstrap';
 import './loadingOverlay';
 import './modal_fotos_galeria';
+import './toggle_collapse';
+
 // import './google_tag';
 import { filterSelection, w3AddClass, w3RemoveClass } from './main';
 // import './main';
