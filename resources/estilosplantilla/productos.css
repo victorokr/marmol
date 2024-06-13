@@ -1,3 +1,18 @@
+.productos__container{
+    padding: 0 90px 70px 90px !important;
+}
+
+.productos__text-subtitle{
+    color: var(--parrafoGray);
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    padding: 40px 0 40px 0;
+    margin: 0;
+}
+
 .productos__section{
     background-color: var(--masBlanco);
     margin-top: 100px;
@@ -130,8 +145,8 @@
 
 /* Create three equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 33.33%;
+    /* float: left; */
+    /* width: 33.33%; */
     display: none; /* Hide all elements by default */
   }
 
@@ -143,7 +158,63 @@
 
 /* Clear floats after rows */ 
 .row_after:after {
-    content: "";
-    display: table;
-    clear: both;
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .productos__card{
+        margin: 0 0 20px 0 !important;/*espacio entre tarjetas*/
+    }
+    .productos__container{
+        padding: 0 30px 70px 30px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    .productos__card{
+        margin: 0 0 20px 0 !important;/*espacio entre tarjetas*/
+    }
+    .productos__container{
+        padding: 0 40px 70px 40px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    .productos__container{
+        padding: 0 50px 70px 50px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+    .productos__card{
+        margin: 0 15px 20px 15px !important;/*espacio entre tarjetas*/
+    }
+    
+    .productos__container{
+        padding: 0 50px 70px 50px !important;
+    }
+   
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+   
+    
+  }
+
+@media (min-width: 1400px) {
+    
   }

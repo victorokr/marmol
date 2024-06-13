@@ -111,17 +111,111 @@
                 @yield('content')
             </main>	
            
-    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
-
-
+            
+        
     
-  
-  
 
-            <!-- gallery filter -->
-  
+            <footer class="bg-dark text-white  pt-5 pb-4 d-flex justify-content-center">
+                <div class="container-fluid text-center footer__container  ">
+                    <div class="row text-center footer__row d-flex justify-content-center m-0 ">
+                        <!-- First column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3  mt-3 p-3 text-start">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Mármoles Atenea S.A.S</h5>
+                            <p class="">Acompañamiento desde el principio de la obra, y a futuro brindar nuestro servicio de mantenimiento, restauración de su producto, para que su casa local u oficina siempre luzcan como nuevos.</p>
+                        </div>
+                        <!-- First column -->
 
+                        <hr class="w-100 clearfix d-md-none">
 
+                        <!-- Second column -->
+                        <div class="col-md-4 col-lg-2 col-xl-2  mt-3 p-3 text-start">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Beneficios</h5>
+                            <p class="">
+                                Programa de Fidelización: puntos Colombia. Acumula puntos en cada compra y canjéalos por increíbles beneficios.
+                            </p>    
+                        </div>
+                        <!-- Second column -->
+
+                        <hr class="w-100 clearfix d-md-none">
+
+                        <!-- Third column -->
+                        <div class="col-md-4 col-lg-2 col-xl-2  mt-3 p-3 text-start">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Descuentos</h5>
+                            <p class="">
+                                Descuentos Especiales. Disfruta de promociones y ofertas exclusivas como miembro del programa.
+                            </p>
+                        </div>
+                        <!-- Third column -->
+
+                        <hr class="w-100 clearfix d-md-none">
+
+                        <!-- Fourth column -->
+                        <div class="col-md-4 col-lg-4 col-xl-3  p-3 mt-3 text-start">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contácto</h5>
+                            <p>
+                              <img class="" src="images/home.png" alt="" />  Bogotá Colombia
+                            </p>
+                            <p class="text-nowrap footer__contacto">
+                              <img class="" src="images/mail.png" alt="" />  marmolesatenea@gmail.com
+                            </p>
+                            <p class="text-nowrap footer__contacto">
+                              <img class="" src="images/mail2.png" alt="" />  cotizaciones@marmolesatenea.com.co
+                            </p>
+                            <p>
+                              <img class="" src="images/phone.png" alt="" />  313 380 8771
+                            </p>
+                        </div>
+                        <!-- Fourth column -->
+
+                        
+
+                        <hr>
+                        <div class=" d-flex justify-content-center p-3">
+                            <div class="col-md-4 col-lg-4 p-0">
+                                    <!-- Social buttons -->
+                                    <p class="text-center footer__text-redes">Siguenos en nuestras redes</p>
+                                    <div class="text-center text-md-right">
+                                        <ul class="list-unstyled list-inline">
+                                            <li class="list-inline-item">
+                                            <a title="siguenos en facebook" target="_blank" href="https://www.facebook.com/Marmoles-Atenea-101161752057205/?ref=page_internal" class="btn-floating btn-sm text-white" style="font-size: 23px;"><img class="" src="images/face_footer.png" alt="" /></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                            <a title="siguenos en instagram" target="_blank" href="https://instagram.com/marmolesatenea" class="btn-floating btn-sm text-white" style="font-size: 23px;"><img class="" src="images/insta_footer.png" alt="" /></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                            <a title="escribenos por whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=573133808771" class="btn-floating btn-sm text-white" style="font-size: 23px;"><img class="" src="images/what_footer.png" alt="" /></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                            <a title="siguenos en linkedin" target="_blank" href="https://www.linkedin.com/company/marmoles-atenea/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><img class="" src="images/linke_footer.png" alt="" /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>    
+                        <!-- Grid row -->
+                        <div class=" d-flex justify-content-center p-3">
+                            <div class="col-md-8 col-lg-12 p-0">
+                                
+                                <p class="footer-links">
+                                    <a href="#inicio">Inicio</a>
+                                    <a href="#quienes">Quienes somos</a>
+                                    <a href="#servicios">Servicios</a>
+                                    <a href="#productos">Productos</a>
+                                    <a href="#contacto">Contacto</a>
+                                </p>
+                                <p class="text-center text-md-left">&copy;Todos los derechos reservados. 2024 Softcode. Para Marmoles Atenea s.a.s.
+                                    <a href="#" style="text-decoration: none;">
+                                    <strong class="text-warning"></strong>
+                                    </a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->  
+                        </div>
+                        <!-- Grid row -->
+                    </div>     
+                </div>
+            </footer>
+        
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
             @vite(['resources/js/app.js'])
     </body>

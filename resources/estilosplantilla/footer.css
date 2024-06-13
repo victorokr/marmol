@@ -1,0 +1,77 @@
+.footer-links a{
+    text-decoration: none;
+    color: var(--white);
+    
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    padding: 5px;
+}
+
+.footer-links a:hover{
+    color: #ffdd02;
+}
+
+.footer__text-redes{
+    color: var(--white);
+    
+    line-height: 1.80857;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.footer__container {
+    margin: 0;
+
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .footer__container {
+        padding: 0 20px 0 20px;
+    }
+    .footer__contacto{
+        font-size: 11px !important;
+    }
+    
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    .footer__container {
+        padding: 0 30px 0 30px !important;
+    }
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    .footer__container {
+        
+    }
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+    .footer__container {
+        
+    }
+   
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+    .footer__container {
+      
+    }
+    
+  }
+
+@media (min-width: 1400px) {
+    .footer__container {
+      
+    }
+  }

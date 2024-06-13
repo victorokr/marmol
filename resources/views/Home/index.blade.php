@@ -183,16 +183,16 @@
                             <div class="card-body px-5">
                                 <h4 class="card-title text-center pt-2">Soporte</h4>
                                 <p class="parrafo_text text-start"><small class="text-body-secondary">¿Inquietudes? Descarga en los siguientes enlaces nuestros manuales de mantenimiento para cada uno de los productos.
-                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANENIMIENTO_DE_GRAMARSTON.pdf" download="MANUAL_DE_MANENIMIENTO_DE_GRAMARSTON">
-                                    Gramarston     
+                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE MANTENIMIENTO_SINTERIZADO.pdf" download="MANUAL_DE_MANENIMIENTO_DE_SINTERIZADO">
+                                    Sinterizado     
                                 </a>
-                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANENIMIENTO_DE_GRANITOS_NATURALES.pdf" download="MANUAL_DE_MANENIMIENTO_DE_GRANITOS_NATURALES">
-                                    Granitos_naturales     
+                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANTENIMIENTO_MARMOLES_Y_GRANITOS_NATURALES.pdf" download="MANUAL_DE_MANENIMIENTO_MARMOLES_Y_GRANITOS_NATURALES">
+                                    Marmoles_y_Granitos     
                                 </a>
-                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANENIMIENTO_DE_MARMOLES.pdf" download="MANUAL_DE_MANENIMIENTO_DE_MARMOLES">
-                                    Marmoles     
+                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/POLITICAS_DE_GARANTIA.pdf" download="POLITICAS_DE_GARANTIA">
+                                    Garantia     
                                 </a>
-                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANENIMIENTO_DE_QUARZTONE.pdf" download="MANUAL_DE_MANENIMIENTO_DE_QUARZTONE">
+                                <a class="parrafo_text servicios_linkStyle link-primary" href="../downloads/MANUAL_DE_MANTENIMIENTO_QUARZTONE.pdf" download="MANUAL_DE_MANENIMIENTO_DE_QUARZTONE">
                                     Quarztone     
                                 </a>
                                 </small></p>
@@ -216,10 +216,10 @@
     
 </div>
     <section class="productos__section" id="productos">
-        <div class="container-fluid px-1 px-sm-3 px-md-3 px-lg-custom pt-5 ">
+        <div class="container-fluid productos__container  ">
             <div class="row row_after">
                 <h3 class="card-title styletext_title2 text-center pt-5 px-4 fs-1">Productos.</h3>
-                <p class="parrafo_text text-center pt-4 pb-5 px-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Nuestros proyectos estan a la altura de tus exigencias.</p>
+                <p class="productos__text-subtitle text-center text-wrap fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Nuestros proyectos estan a la altura de tus exigencias.</p>
                 <div class="gallery-menu row pb-4 px-0">
                     <div class="col-md-12 p-0">
                         <div id="myBtnContainer" class="button-group mx-0 text-center  d-flex flex-column flex-sm-column flex-md-colum flex-lg-colum flex-xl-row filter-button-group " >
@@ -569,7 +569,60 @@
         </div>    
     </section>
     <section id="contacto">
-         <h3>contactanos</h3>
+        <div class="container-fluid contacto__container  mt-0">
+            <div class="row d-flex justify-content-center m-0">
+            <h3 class="card-title styletext_title2 text-center py-1 pt-5 px-4 fs-1">Contáctanos.</h3>
+            <p class="contacto_text-title text-center py-2 pb-5 px-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Dejanos saber tus inquietudes, nos pondremos en contácto el menor tiempo posible.</p>
+                <div class="col col-sm-12 col-md-12 col-lg-8 col-xl-6 p-0">
+                    <div class="card contacto__card border-0">
+                        
+                        <div class="card-body contacto__card-body ">
+                            
+                            <form method="POST"  id="contactFormm" name="sentMessagee">
+                            {!!csrf_field() !!}
+                                <div class="row">
+                                    <div class="col-md-6 contacto__col">
+                                        <div class="contacto__formGroup-input">
+                                            <input class="form-control" id="namee" name="nombre" type="text" placeholder="Tu nombre" required>
+                                            {!!$errors->first('nombre','<span class=error>:message</span>')!!}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 contacto__col">
+                                        <div class="contacto__formGroup-input">
+                                            <input class="form-control" id="emaill" name="email" type="email" placeholder="Tu correo electronico" required>
+                                            {!!$errors->first('email','<span class=error>:message</span>')!!}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 contacto__col">
+                                        <div class="contacto__formGroup-input">
+                                            <input class="form-control" id="phonee" name="phone" type="tel" placeholder="Tu numero de telefono" required>
+                                            {!!$errors->first('phone','<span class=error>:message</span>')!!}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 contacto__col">
+                                        <div class="contacto__formGroup-input">
+                                            <textarea class="form-control" id="messagee" name="mensaje" placeholder="Tu mensaje" rows="10" required></textarea>
+                                            {!!$errors->first('mensaje','<span class=error>:message</span>')!!}
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-12 text-center">
+                                        <div id="successs"></div>
+                                        <button type="submit" class="btn contacto__btn" >Enviar mensaje</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>   
+                    </div>
+                    <div class="fb-share-button d-flex justify-content-center pb-3" >
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarmolesatenea.com.co%2F" target="_blank" class="btn btn-facebook">
+                            <img class="" src="images/face_footer.png" alt="" />Compartir
+                            </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </section>
 
 @endsection
