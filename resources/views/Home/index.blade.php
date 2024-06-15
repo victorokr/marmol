@@ -574,35 +574,40 @@
             <h3 class="card-title styletext_title2 text-center py-1 pt-5 px-4 fs-1">Contáctanos.</h3>
             <p class="contacto_text-title text-center py-2 pb-5 px-5 fs-xs-6-custom fs-sm-5-custom  fs-md-4-custom fs-lg-3-custom fs-2-xl-custom fs-xxl-1-custom">Dejanos saber tus inquietudes, nos pondremos en contácto el menor tiempo posible.</p>
                 <div class="col col-sm-12 col-md-12 col-lg-8 col-xl-6 p-0">
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
                     <div class="card contacto__card border-0">
                         
                         <div class="card-body contacto__card-body ">
                             
-                            <form method="POST"  id="contactFormm" name="sentMessagee">
+                            <form method="POST" action="{{ route('contact.submit') }}" id="contactFormm" name="sentMessagee">
                             {!!csrf_field() !!}
                                 <div class="row">
                                     <div class="col-md-6 contacto__col">
                                         <div class="contacto__formGroup-input">
-                                            <input class="form-control" id="namee" name="nombre" type="text" placeholder="Tu nombre" required>
-                                            {!!$errors->first('nombre','<span class=error>:message</span>')!!}
+                                            <input class="form-control" id="namee" name="nombre" value="{{ old('nombre') }}" type="text" placeholder="Tu nombre" required>
+                                            @error('nombre') <div class="alert alert-danger">{{ $message }}</div> @enderror
                                         </div>
                                     </div>
                                     <div class="col-md-6 contacto__col">
                                         <div class="contacto__formGroup-input">
-                                            <input class="form-control" id="emaill" name="email" type="email" placeholder="Tu correo electronico" required>
-                                            {!!$errors->first('email','<span class=error>:message</span>')!!}
+                                            <input class="form-control" id="emaill" name="email" value="{{ old('email') }}" type="email" placeholder="Tu correo electronico" required>
+                                            @error('email') <div class="alert alert-danger">{{ $message }}</div> @enderror
                                         </div>
                                     </div>
                                     <div class="col-md-12 contacto__col">
                                         <div class="contacto__formGroup-input">
-                                            <input class="form-control" id="phonee" name="phone" type="tel" placeholder="Tu numero de telefono" required>
-                                            {!!$errors->first('phone','<span class=error>:message</span>')!!}
+                                            <input class="form-control" id="phonee" name="phone" value="{{ old('phone') }}" type="tel" placeholder="Tu numero de telefono" required>
+                                            @error('phone') <div class="alert alert-danger">{{ $message }}</div> @enderror
                                         </div>
                                     </div>
                                     <div class="col-md-12 contacto__col">
                                         <div class="contacto__formGroup-input">
-                                            <textarea class="form-control" id="messagee" name="mensaje" placeholder="Tu mensaje" rows="10" required></textarea>
-                                            {!!$errors->first('mensaje','<span class=error>:message</span>')!!}
+                                            <textarea class="form-control" id="messagee" name="mensaje" value="{{ old('mensaje') }}" placeholder="Tu mensaje" rows="10" required></textarea>
+                                            @error('mensaje') <div class="alert alert-danger">{{ $message }}</div> @enderror
                                         </div>
                                     </div>
                                     
@@ -612,6 +617,13 @@
                                     </div>
                                 </div>
                             </form>
+                            @if ($errors->any())
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        window.location.hash = '#contacto';
+                                    });
+                                </script>
+                            @endif
                         </div>   
                     </div>
                     <div class="fb-share-button d-flex justify-content-center pb-3" >
