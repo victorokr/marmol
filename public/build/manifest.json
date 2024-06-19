@@ -1,0 +1,17 @@
+{
+  "public/images/contacto1.jpg": {
+    "file": "assets/contacto1-Bj15luKs.jpg",
+    "src": "public/images/contacto1.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Bj_iQ8CG.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C7xjx5rM.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
