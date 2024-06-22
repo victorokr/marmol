@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::post('/contact', [ContactFormController::class, 'submit'])->name('contact.submit');
+Route::post('contact', [ContactFormController::class, 'submit'])->name('contact.submit');

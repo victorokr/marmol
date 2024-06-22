@@ -3,24 +3,25 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    // $datosForm no viene de ningun lado, solo se inyecta esta variable al constructor para compartir los datos a la vista envelope
-    public $datosForm;
+    
+    public $validator;
     /**
      * Create a new message instance.
      */
-    public function __construct($datosForm)
+    public function __construct($validator)
     {
-        $this->datosForm = $datosForm;
+        $this->validator = $validator;
     }
 
     /**
@@ -29,6 +30,8 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
+            
+            from: new Address('noreply@marmolesatenea.com.co', 'formulario'),
             subject: 'Contact Mail',
         );
     }
