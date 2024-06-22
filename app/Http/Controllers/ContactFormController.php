@@ -10,7 +10,7 @@ class ContactFormController extends Controller
 {
     public function submit(Request $request)
     {
-        $validator = $request->validate([
+            $request->validate([
             'nombre'  => 'required|min:3|max:55',
             'email'   => 'required|email',
             'phone'   => 'required|numeric|max_digits:10',
@@ -19,13 +19,15 @@ class ContactFormController extends Controller
 
        
 
-      
+            $validator = [
+                'nombre'   => $request['nombre'],
+                'email'    => $request['email'],
+                'phone'    => $request['phone'],
+                'mensaje'  => $request['mensaje'],
+            ];
 
         
-        $nombre   = $request->input('nombre');
-        $correo   = $request->input('email');
-        $telefono = $request->input('phone');
-        $mensaje  = $request->input('mensaje');
+        
 
         // mailtrap@example.com for test
         Mail::to('mailtrap@example.com')->send(new ContactMail($validator));

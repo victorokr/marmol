@@ -40,6 +40,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CH95TQSRMF"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CH95TQSRMF');
+        </script>
         
 
         <link rel="shortcut icon" href="/images/marmolicono1.PNG">
@@ -148,7 +156,7 @@
                               <img class="" src="images/home.png" alt="" />  Bogotá Colombia
                             </p>
                             <p class="text-nowrap footer__contacto">
-                              <img class="" src="images/mail.png" alt="" />  marmolesatenea@gmail.com
+                              <img class="" src="images/mail.png" alt="" />  marmolesatene@gmail.com
                             </p>
                             <p class="text-nowrap footer__contacto">
                               <img class="" src="images/mail2.png" alt="" />  cotizaciones@marmolesatenea.com.co

@@ -45,4 +45,248 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .borde_purple{
+        background-color: #5a4091; /*fondo de la caja*/
+        border-style: solid; /*borde con estilo grueso*/
+        border-color: #ffffff; /*borde interno de la caja*/
+        box-shadow: 0 0 0 5px #432382 !important; /*borde externo de la caja*/
+        border-width: 5px !important;
+        padding: 2px 5px 2px 5px !important;
+        margin: auto !important; /*margen para centrar la caja*/
+        width: 200px !important;
+    }
+
+    .styletext{
+        color: #ffffff !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        margin: 2px 5px 5px 5px !important;
+    }
+
+    .carousel__sub-title{
+        color: #ffffff !important;
+        font-size: 12px !important;
+        font-weight: 100 !important;
+        margin: 2px !important;
+        line-height: 12px !important;
+    }
+    .carousel__btn-custom{
+        display: flex;
+        align-items: center !important;
+        font-size: 12px !important;
+        padding: 0 3px 0 3px !important;
+        margin: 4px 0 2px 2px !important;
+    }
+
+    .carousel-caption{
+        padding: 6px 0 6px 0 !important;
+    }
+
+    .aling_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+  }
+  
+  /* Tamaño de fuente para small */
+@media (min-width: 576px)  {
+    .borde_purple{
+        background-color: #5a4091; /*fondo de la caja*/
+        border-style: solid; /*borde con estilo grueso*/
+        border-color: #ffffff; /*borde interno de la caja*/
+        box-shadow: 0 0 0 8px #432382 !important; /*borde externo de la caja*/
+        border-width: 8px !important;
+        padding: 2px 5px 2px 5px !important;
+        margin: auto !important; /*margen para centrar la caja*/
+        width: 300px !important;
+    }
+
+    .styletext{
+        color: #ffffff !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        margin: 2px 5px 5px 5px !important;
+    }
+
+    .carousel__sub-title{
+        color: #ffffff !important;
+        font-size: 15px !important;
+        font-weight: 200 !important;
+        margin: 2px !important;
+        line-height: 16px !important;
+    }
+    .carousel__btn-custom{
+        display: flex;
+        align-items: center !important;
+        font-size: 14px !important;
+        padding: 0 3px 0 3px !important;
+        margin: 4px 0 2px 2px !important;
+    }
+
+    .carousel-caption{
+        padding: 10px 0 10px 0 !important;
+    }
+
+    .aling_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+  
+  /* Tamaño de fuente para medium */
+@media (min-width: 768px)  {
+    .borde_purple{
+        background-color: #5a4091; /*fondo de la caja*/
+        border-style: solid; /*borde con estilo grueso*/
+        border-color: #ffffff; /*borde interno de la caja*/
+        box-shadow: 0 0 0 10px #432382 !important; /*borde externo de la caja*/
+        border-width: 10px !important;
+        padding: 15px !important;
+        margin: auto !important; /*margen para centrar la caja*/
+        width: 400px !important;
+    }
+
+    .styletext{
+        color: #ffffff !important;
+        font-size: 38px !important;
+        font-weight: 500 !important;
+        padding:  0px !important;
+    }
+
+    .carousel__sub-title{
+        color: #ffffff !important;
+        font-size: 18px !important;
+        font-weight: 200 !;
+        margin: 2px !important;
+        line-height: 22px !important;
+    }
+    .carousel__btn-custom{
+        display: flex;
+        align-items: center !important;
+        font-size: 16px !important;
+        padding: 5px!important;
+        margin: 4px  !important;
+    }
+
+    .carousel-caption{
+        padding: 15px 0 15px 0 !important;
+    }
+
+    .aling_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+  
+  /* Tamaño de fuente para large */
+@media (min-width: 992px) {
+   
+   
+  }
+  
+  /* Tamaño de fuente para extra large */
+@media (min-width: 1200px) {
+    .borde_purple{
+        background-color: #5a4091; /*fondo de la caja*/
+        border-style: solid; /*borde con estilo grueso*/
+        border-color: #ffffff; /*borde interno de la caja*/
+        box-shadow: 0 0 0 10px #432382 !important; /*borde externo de la caja*/
+        border-width: 10px !important;
+        padding: 15px !important;
+        margin: auto !important; /*margen para centrar la caja*/
+        width: 500px !important;
+    }
+
+    .styletext{
+        color: #ffffff !important;
+        font-size: 38px !important;
+        font-weight: 500 !important;
+        padding:  0px !important;
+    }
+
+    .carousel__sub-title{
+        color: #ffffff !important;
+        font-size: 18px !important;
+        font-weight: 200 !;
+        margin: 2px !important;
+        line-height: 22px !important;
+    }
+    .carousel__btn-custom{
+        display: flex;
+        align-items: center !important;
+        font-size: 16px !important;
+        padding: 5px!important;
+        margin: 4px !important;
+    }
+
+    .carousel-caption{
+        padding: 20px 0 20px 0 !important;
+    }
+
+    .aling_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+  }
+
+@media (min-width: 1400px) {
+    .borde_purple{
+        background-color: #5a4091; /*fondo de la caja*/
+        border-style: solid; /*borde con estilo grueso*/
+        border-color: #ffffff; /*borde interno de la caja*/
+        box-shadow: 0 0 0 10px #432382 !important; /*borde externo de la caja*/
+        border-width: 10px !important;
+        padding: 15px !important;
+        margin: auto !important; /*margen para centrar la caja*/
+        width: 650px !important;
+    }
+
+    .styletext{
+        color: #ffffff !important;
+        font-size: 38px !important;
+        font-weight: 500 !important;
+        padding:  0px !important;
+    }
+
+    .carousel__sub-title{
+        color: #ffffff !important;
+        font-size: 18px !important;
+        font-weight: 200 !;
+        margin: 2px !important;
+        line-height: 22px !important;
+    }
+    .carousel__btn-custom{
+        display: flex;
+        align-items: center !important;
+        font-size: 16px !important;
+        padding: 8px!important;
+        margin: 8px 5px 0 0 !important;
+    }
+
+    .carousel-caption{
+        padding: 20px 0 20px 0 !important;
+    }
+
+    .aling_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }

@@ -12,13 +12,13 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="uploads/slider-01.jpg" class="d-block img_baner w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                         <div class="borde_purple w-50 ">
                         <h2 class="styletext">Mármoles Atenea</h2>
-                        <p class="fs-6 ">Mármol, Granito y otros materiales premium importados.</p>
-                        <div class="aling_btn gap-2 ">
+                        <p class="fs-6 carousel__sub-title ">Mármol, Granito y otros materiales premium importados.</p>
+                        <div class="aling_btn  ">
                             <div class="dropdown">
-                                <a class="btn btn-sm dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="btn btn-sm  carousel__btn-custom dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Catálogos
                                 </a>
 
@@ -28,20 +28,20 @@
                                     <li><a class="dropdown-item" href="../downloads/CATALOGO_SINTERIZADO_MARMOLES_ATENEA_SAS.pdf" target="_blank">Catálogo Sinterizado</a></li>
                                 </ul>
                             </div>
-                                <a href="#contacto" class="btn  btn-sm" tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
+                                <a href="#contacto" class="btn  btn-sm carousel__btn-custom " tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
                         </div>
                         </div>   
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="uploads/slider-02.jpg" class="d-block img_baner w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                         <div class="borde_purple w-50">
                         <h2 class="styletext">Mármoles Atenea</h2>
-                        <p class="fs-6">Servicio integral de mantenimineto y restauración. </p>
-                        <div class="aling_btn gap-2">
+                        <p class="fs-6 carousel__sub-title">Servicio integral de mantenimineto y restauración. </p>
+                        <div class="aling_btn ">
                                 <div class="dropdown">
-                                <a class="btn btn-sm dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="btn btn-sm carousel__btn-custom dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Catálogos
                                 </a>
 
@@ -51,20 +51,20 @@
                                     <li><a class="dropdown-item" href="../downloads/CATALOGO_SINTERIZADO_MARMOLES_ATENEA_SAS.pdf" target="_blank">Catálogo Sinterizado</a></li>
                                 </ul>
                             </div>
-                                <a href="#contacto" class="btn  btn-sm" tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
+                                <a href="#contacto" class="btn  btn-sm carousel__btn-custom" tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
                         </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="uploads/slider-03.jpg" class="d-block img_baner w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                         <div class="borde_purple w-50">
                         <h2 class="styletext">Mármoles Atenea</h2>
-                        <p class="fs-6">Descubre la excelencia en encímeras y revestimientos.</p>
-                        <div class="aling_btn gap-2">
+                        <p class="fs-6 carousel__sub-title">Descubre la excelencia en encímeras y revestimientos.</p>
+                        <div class="aling_btn ">
                                 <div class="dropdown">
-                                <a class="btn btn-sm dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="btn btn-sm carousel__btn-custom dropdown-toggle dropdown-toggle-split" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Catálogos
                                 </a>
 
@@ -74,7 +74,7 @@
                                     <li><a class="dropdown-item" href="../downloads/CATALOGO_SINTERIZADO_MARMOLES_ATENEA_SAS.pdf" target="_blank">Catálogo Sinterizado</a></li>
                                 </ul>
                             </div>
-                                <a href="#contacto" class="btn  btn-sm" tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
+                                <a href="#contacto" class="btn  btn-sm carousel__btn-custom" tabindex="-1" role="button" aria-disabled="true">Contáctanos</a>
                         </div>
                         </div>
                     </div>
@@ -584,7 +584,7 @@
                         <div class="card-body contacto__card-body ">
                             
                             <form method="POST" action="{{ route('contact.submit') }}" id="contactFormm" name="sentMessagee">
-                            {!!csrf_field() !!}
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-6 contacto__col">
                                         <div class="contacto__formGroup-input">
