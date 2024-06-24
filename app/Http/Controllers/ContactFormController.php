@@ -30,7 +30,7 @@ class ContactFormController extends Controller
         
 
         // mailtrap@example.com for test
-        Mail::to('mailtrap@example.com')->send(new ContactMail($validator));
+        Mail::to('marmolesatene@gmail.com')->send(new ContactMail($validator));
 
         // Aquí maneja el envío del formulario, como validar entrada y enviar correos.
         return redirect()->to(url()->previous() . '#contacto')->with('success', '¡Hemos recibido tu mensaje! nos comunicaremos lo mas pronto posible');

@@ -31,8 +31,8 @@ class ContactMail extends Mailable
     {
         return new Envelope(
             
-            from: new Address('noreply@marmolesatenea.com.co', 'formulario'),
-            subject: 'Contact Mail',
+            from: new Address('noreply@marmolesatenea.com.co', 'formulario de contácto'),
+            subject: 'Nuevo Cliente Web marmolesatenea',
         );
     }
 
@@ -43,6 +43,7 @@ class ContactMail extends Mailable
     {
         return new Content(
             view: 'email.envelope',
+            with: ['validator' => $this->validator],
         );
     }
 
